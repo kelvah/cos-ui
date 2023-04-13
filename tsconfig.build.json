@@ -16,12 +16,13 @@
     "target": "es6",
     "noImplicitAny": true,
     "outDir": "dist",
+    "resolveJsonModule": true
   },
   "exclude": [
     "dist",
     "node_modules",
     "**/*.stories.tsx",
     "**/*.test.ts*",
-    "./cypress.config.ts",
+    "./cypress.config.ts"
   ]
 }

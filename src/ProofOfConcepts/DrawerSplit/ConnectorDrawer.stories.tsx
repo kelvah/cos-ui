@@ -11,7 +11,7 @@ import {
 import { ConnectorDrawer } from './ConnectorDrawer';
 
 export default {
-  title: 'POC-Connectors Message Drawer/Split Full Example',
+  title: 'PoCs/Connectors Message Drawer',
   component: ConnectorDrawer,
   args: { sent: '1600', notSent: '12' },
   parameters: {
@@ -40,5 +40,5 @@ const Template: ComponentStory<typeof ConnectorDrawer> = (args) => (
   <ConnectorDrawer {...args} />
 );
 
-export const Story = Template.bind({});
-Story.args = {};
+export const SplitFullExample = Template.bind({});
+SplitFullExample.args = {};

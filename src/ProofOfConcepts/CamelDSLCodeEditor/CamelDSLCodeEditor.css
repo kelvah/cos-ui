@@ -1,0 +1,29 @@
+.camel-editor {
+  width: 100%;
+  height: 100%;
+}
+
+/*
+  Adding an inner container because the padding on the outer one is interfering
+  with how monaco editor calculate the height of its parent element
+ */
+.camel-editor-inner {
+  width: 100%;
+  height: 100%;
+}
+
+/*PF CodeEditor not supporting height 100% configuration */
+.camel-editor .pf-c-code-editor {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.camel-editor .pf-c-code-editor__main {
+  flex-grow: 1;
+}
+
+.camel-editor .pf-c-code-editor__code {
+  height: 100%;
+}
